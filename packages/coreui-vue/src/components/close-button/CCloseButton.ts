@@ -45,6 +45,7 @@ export const CCloseButton = defineComponent({
         'aria-label': 'Close',
         disabled: props.disabled,
         onClick: handleClick,
+        type: 'button',
       })
   },
 })
